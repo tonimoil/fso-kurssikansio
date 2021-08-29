@@ -1,1 +1,1 @@
-# fullstackopen
+# Ko. kurssin vastauksia
