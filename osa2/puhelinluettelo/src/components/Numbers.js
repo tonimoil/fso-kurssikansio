@@ -5,7 +5,7 @@ const Numbers = (props) => {
         <div>
             <h2>Numbers</h2>
             <ul>
-            {props.filteredList.map (person => <li key={person.id}>{person.name} {person.number}</li>)}
+            {props.filteredList.map (person => <li key={person.id}>{person.name} {person.number} <button>delete</button></li>)}
             </ul>
         </div>
     )
