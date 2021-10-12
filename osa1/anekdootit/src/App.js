@@ -3,7 +3,6 @@ import React, { useState } from 'react'
 const getRandom = (max) => {
   return Math.floor(Math.random() * max)
 }
-//testi
 
 const App = () => {
   const anecdotes = [
