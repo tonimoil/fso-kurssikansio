@@ -18,8 +18,11 @@ const deleteWithId = (id) => {
     return axios.delete(`${baseUrl}/${id}`)
 }
 
-export default {
+const omaApi = {
     getAll: getAll,
     create: create,
-    update: update
+    update: update,
+    deleteWithId: deleteWithId
 }
+
+export default omaApi
